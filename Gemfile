@@ -3,10 +3,11 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.15'
 gem 'bootstrap-sass', '2.1'
 
-gem 'sqlite3'
+
 
 group :development, :test do
   gem 'rspec-rails', '2.11.0'
+  gem 'sqlite3', '1.3.5'
 end
 
 # Gems used only for assets and not required
